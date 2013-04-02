@@ -2,7 +2,6 @@ Hs Paywall Breaker:
 ===========================
 
 Hs Paywall Breaker is a chrome extension which removes the paywall from hs.fi
---------
 
 How to use
 ----------
