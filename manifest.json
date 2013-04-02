@@ -1,0 +1,13 @@
+{
+  "name": "Hesingin Sanomat Paywall Breaker",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Break the hs paywall.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.hs.fi/*"],
+      "js": ["hs_breaker.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
