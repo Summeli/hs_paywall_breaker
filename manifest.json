@@ -6,8 +6,8 @@
   "content_scripts": [
     {
       "matches": ["*://*.hs.fi/*"],
-      "js": ["hs_breaker.js"],
-      "run_at": "document_end"
+      "js": ["jquery-2.1.4.min.js","hs_breaker.js"],
+      "run_at": "document_start"
     }
   ]
 }
