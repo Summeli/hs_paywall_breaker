@@ -8,7 +8,8 @@
       "matches": ["*://*.hs.fi/*"],
       "js": ["jquery-2.1.4.min.js","hs_breaker.js"],
       "run_at": "document_start"
-    },    {
+    },    
+    {
       "matches": ["*://*.hs.fi/*"],
       "js": ["jquery-2.1.4.min.js","hs_hardpaywall_breaker.js"],
       "run_at": "document_end"
